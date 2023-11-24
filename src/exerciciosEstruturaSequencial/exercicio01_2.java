@@ -13,11 +13,11 @@ public class exercicio01_2 {
 
         double largura, comprimento, metroQuadrado, area, preco;
 
-        System.out.println("Digite a largura do terreno: ");
+        System.out.println("Digite a largura do terreno:");
         largura = sc.nextDouble();
-        System.out.println("Digite o comprimento do terreno: ");
+        System.out.println("Digite o comprimento do terreno:");
         comprimento = sc.nextDouble();
-        System.out.println("Digite o valor do metroQuadrado do terreno: ");
+        System.out.println("Digite o valor do metroQuadrado do terreno:");
         metroQuadrado = sc.nextDouble();
         sc.close();
 

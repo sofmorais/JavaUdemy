@@ -8,18 +8,18 @@ public class exercicio04 {
 
         Scanner sc = new Scanner(System.in);
 
-        int A, B, C, D, diferenca;
+        int a, b, c, d, diferenca;
 
-        System.out.println("Digite o valor de a: ");
-        A = sc.nextInt();
-        System.out.println("Digite o valor de b: ");
-        B = sc.nextInt();
-        System.out.println("Digite o valor de c: ");
-        C = sc.nextInt();
-        System.out.println("Digite o valor de d: ");
-        D = sc.nextInt();
+        System.out.println("Digite o valor de a:");
+        a = sc.nextInt();
+        System.out.println("Digite o valor de b:");
+        b = sc.nextInt();
+        System.out.println("Digite o valor de c:");
+        c = sc.nextInt();
+        System.out.println("Digite o valor de d:");
+        d = sc.nextInt();
 
-        diferenca = A * B - C * D;
+        diferenca = a * b - c * d;
 
         System.out.println("Diferença: " + diferenca);
         sc.close();

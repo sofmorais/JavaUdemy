@@ -14,17 +14,17 @@ public class exercicio06 {
         int codigoPeca1, quantidadePeca1, codigoPeca2, quantidadePeca2;
         double precoPeca1, precoPeca2, valorTotal;
 
-        System.out.println("Digite o código da peça 1: ");
+        System.out.println("Digite o código da peça 1:");
         codigoPeca1 = sc.nextInt();
-        System.out.println("Digite a quantidade de peças 1: ");
+        System.out.println("Digite a quantidade de peças 1:");
         quantidadePeca1 = sc.nextInt();
-        System.out.println("Digite o valor da peça 1: ");
+        System.out.println("Digite o valor da peça 1:");
         precoPeca1 = sc.nextDouble();
-        System.out.println("Digite o código da peça 2: ");
+        System.out.println("Digite o código da peça 2:");
         codigoPeca2 = sc.nextInt();
-        System.out.println("Digite a quantidade de peças 2: ");
+        System.out.println("Digite a quantidade de peças 2:");
         quantidadePeca2 = sc.nextInt();
-        System.out.println("Digite o valor da peça 2: ");
+        System.out.println("Digite o valor da peça 2:");
         precoPeca2 = sc.nextDouble();
 
         valorTotal = quantidadePeca1 * precoPeca1 + quantidadePeca2 * precoPeca2;

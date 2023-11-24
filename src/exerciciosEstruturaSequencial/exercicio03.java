@@ -17,7 +17,7 @@ public class exercicio03 {
         double raio, area;
         double pi = 3.14159;
 
-        System.out.println("Digite o valor do raio do círculo: ");
+        System.out.println("Digite o valor do raio do círculo:");
         raio = sc.nextDouble();
 
         area = pi * raio * raio;

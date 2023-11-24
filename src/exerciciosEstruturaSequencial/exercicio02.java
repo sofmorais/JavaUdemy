@@ -10,9 +10,9 @@ public class exercicio02 {
 
         int a, b, soma;
 
-        System.out.println("Digite o valor de a: ");
+        System.out.println("Digite o valor de a:");
         a = sc.nextInt();
-        System.out.println("Digite o valor de a: ");
+        System.out.println("Digite o valor de a:");
         b = sc.nextInt();
 
         soma = a + b;

@@ -13,15 +13,15 @@ public class exercicio05 {
         int matriculaFuncionario;
         double horasTrabalhadas, valorPorHora, salario;
 
-        System.out.println("Digite a matrícula do funcionário: ");
+        System.out.println("Digite a matrícula do funcionário:");
         matriculaFuncionario = sc.nextInt();
-        System.out.println("Digite as horas trabalhadas: ");
+        System.out.println("Digite as horas trabalhadas:");
         horasTrabalhadas = sc.nextDouble();
-        System.out.println("Digite o valor por hora: ");
+        System.out.println("Digite o valor por hora:");
         valorPorHora = sc.nextDouble();
 
         salario = horasTrabalhadas * valorPorHora;
-        System.out.println("Matrícula: " + matriculaFuncionario);
+        System.out.println("Matrícula:" + matriculaFuncionario);
         System.out.printf("O salário do funcionário será: U$ %.2f", salario);
 
         sc.close();
