@@ -8,12 +8,12 @@ public class exercicio02 {
 
         Scanner sc = new Scanner(System.in);
 
-        int senha = sc.nextInt();
+        int senhaDigitada = sc.nextInt();
         int senhaCorreta = 2002;
 
-        while (senhaCorreta != senha) {
-            senha = sc.nextInt();
+        while (senhaDigitada != senhaCorreta) {
             System.out.println("Senha inválida.");
+            senhaDigitada = sc.nextInt();
         }
 
         System.out.println("Acesso permitido.");
