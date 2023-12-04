@@ -10,30 +10,29 @@ public class exercicio01_2 {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Triangulo x, y;
-        x = new Triangulo();
-        y = new Triangulo();
+        Triangle x = new Triangle();
+        Triangle y = new Triangle();
 
-        System.out.println("Digite as medidas do triângulo X:");
+        System.out.println("Enter the measures of triangle X:");
         x.a = sc.nextDouble();
         x.b = sc.nextDouble();
         x.c = sc.nextDouble();
 
-        System.out.println("Digite as medidas do triângulo Y:");
+        System.out.println("Enter the measures of triangle Y:");
         y.a = sc.nextDouble();
         y.b = sc.nextDouble();
         y.c = sc.nextDouble();
 
-        double areaX = x.calcularArea();
-        double areaY = y.calcularArea();
+        double areaX = x.area();
+        double areaY = y.area();
 
-        System.out.printf("Área do triângulo X: %.4f%n", areaX);
-        System.out.printf("Área do triângulo Y: %.4f%n", areaY);
+        System.out.printf("Triangle X area: %.4f%n", areaX);
+        System.out.printf("Triangle Y area: %.4f%n", areaY);
 
         if (areaX > areaY) {
-            System.out.println("Maior área: X");
+            System.out.println("Larger area: X");
         } else {
-            System.out.println("Maior área: Y");
+            System.out.println("Larger area: Y");
         }
 
         sc.close();
