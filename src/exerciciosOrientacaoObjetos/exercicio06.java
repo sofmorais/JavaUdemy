@@ -1,5 +1,7 @@
 package exerciciosOrientacaoObjetos;
 
+import exerciciosOrientacaoObjetos.entities.CurrencyConverter;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -15,7 +17,7 @@ public class exercicio06 {
         System.out.println("How many dollars will be bought?");
         converter.amount = sc.nextDouble();
 
-        System.out.println("Amount to be paid in reais: " + converter.convertToReal(c));
+        System.out.println("Amount to be paid in reais: " + converter.dollarPrice);
         sc.close();
     }
 }

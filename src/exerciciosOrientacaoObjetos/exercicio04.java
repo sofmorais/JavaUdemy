@@ -1,5 +1,7 @@
 package exerciciosOrientacaoObjetos;
 
+import exerciciosOrientacaoObjetos.entities.Employee;
+
 import java.util.Locale;
 import java.util.Scanner;
 

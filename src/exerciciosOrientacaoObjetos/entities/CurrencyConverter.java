@@ -1,4 +1,4 @@
-package exerciciosOrientacaoObjetos;
+package exerciciosOrientacaoObjetos.entities;
 
 public class CurrencyConverter {
     public double dollarPrice;

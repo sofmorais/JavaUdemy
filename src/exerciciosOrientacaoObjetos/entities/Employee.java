@@ -1,4 +1,4 @@
-package exerciciosOrientacaoObjetos;
+package exerciciosOrientacaoObjetos.entities;
 
 public class Employee {
     public String name;
