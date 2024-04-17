@@ -15,20 +15,20 @@ public class exercicio02 {
         String name =  sc.nextLine();
         System.out.print("Price: ");
         double price = sc.nextDouble();
-        System.out.print("Quantity in stock: ");
-        int quantity = sc.nextInt();
 
-        Product product = new Product(name, price, quantity);
+        Product product = new Product(name, price);
 
-        System.out.printf("%nProduct data: " + product.toString());
+        System.out.printf("%nProduct data: " + product);
 
         System.out.printf("%nEnter the number of products to be added in stock: ");
-        product.addProducts(sc.nextInt());
+        int quantityAdd = sc.nextInt();
+        product.addProducts(quantityAdd);
 
-        System.out.printf("%nProduct data: " + product.toString());
+        System.out.printf("%nProduct data: " + product);
         System.out.printf("%nEnter the number of products to be removed from stock: ");
-        product.removeProducts(sc.nextInt());
-        System.out.printf("Updated data: " + product.toString());
+        int quantityRemove = sc.nextInt();
+        product.removeProducts(quantityRemove);
+        System.out.printf("Updated data: " + product);
 
         sc.close();
     }
