@@ -21,35 +21,34 @@ public class exercicio07 {
             sc.nextLine();
             switch (option) {
                 case 1:
-                    System.out.println("Account number: " + bank.getNumeroConta());
+                    System.out.println("Account number: " + bank.getNumeroConta().toString().substring(0, 8));
                     System.out.print("Enter account holder: ");
                     String titular = sc.nextLine();
 
                     bank.setTitular(titular);
 
                     System.out.println("Is there a initial deposit (y/n)?");
-                    char initialDeposit = sc.next().charAt(0);
+                    char response = sc.next().charAt(0);
 
-                    if (initialDeposit == 'y') {
+                    if (response == 'y') {
                         System.out.println("Enter initial deposit value:");
                         bank.deposit(sc.nextDouble());
-                        sc.nextLine();
                     }
 
-                    System.out.println("Account data: " + bank.toString());
+                    System.out.println("Account data: " + bank);
                     break;
 
                 case 2:
                     System.out.println("Enter a deposit value: ");
                     bank.deposit(sc.nextDouble());
-                    System.out.println("Updated account data:" + bank.toString());
+                    System.out.println("Updated account data:" + bank);
                     break;
 
                 case 3:
                     System.out.println("Balance: " + bank.getBalance());
                     System.out.println("Enter a withdraw value: ");
                     bank.withdraw(sc.nextDouble());
-                    System.out.println("Updated account data:" + bank.toString());
+                    System.out.println("Updated account data:" + bank);
                     break;
 
                 case 4:
